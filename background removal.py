@@ -30,7 +30,7 @@ while True:
         # convertendo a imagem em RGB para facilitar o processamento
         frame_rgb = cv2.cvtColor(frame , cv2.COLOR_BGR2RGB)
 
-        # Preencha os limites que esta no passo 2 do projeto
+        # Preencha os limites para branco
         lower_bound = np.array([])
         upper_bound = np.array([])
 
